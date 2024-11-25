@@ -1,16 +1,17 @@
 import {Link} from 'react-router-dom';
-import Gallery from '../components/Gallery';
-import home from '../home.jsx';
-import About from './pages/about.jsx';
+import Gallery from '../components/Gallery.jsx';
+import home from '../pages/home.jsx';
+import about from '../pages/about.jsx';
+import '../styles/navbar.css';
 
 function Navbar () {
     return (
-        <div>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/About">About</Link></li>
-                    <li><Link to="/Gallery">Gallery</Link></li>
+        <div className="navbar">
+            <nav className="navContainer">
+                <ul className="list">
+                    <li className="navLink"><Link to="/">Home</Link></li>
+                    <li className="navLink"><Link to="/About">About</Link></li>
+                    <li className="navLink"><Link to="/Gallery">Gallery</Link></li>
                 </ul>
             </nav>
         </div>

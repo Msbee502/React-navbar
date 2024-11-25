@@ -1,0 +1,36 @@
+
+
+.navbar {
+    background-color: #EEECDE;
+    margin: 0;
+    padding: 0;   
+}
+
+.navLink {
+    color: #343a40;
+    text-decoration: none; /* Ensure this is correct */
+    width: 100%;
+    z-index: 100;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.list {
+    list-style-type: none;
+   
+}
+
+.navLink a { 
+    text-decoration: none;
+    
+}
+
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  } */

@@ -3,7 +3,7 @@ import Healthydrink from '../assets/Healthydrink.png';
 import Healthyfood from '../assets/Healthyfood.png';
 import Workout from '../assets/Workout.png';
 import Teapot from '../assets/Teapot.png';
-import '../styles/Gallery.css';
+import '../styles/gallery.css';
 
 
 
@@ -12,7 +12,7 @@ function Gallery (){
 
 return (
 
-    <div className='Gallery'>
+    <div className='gallery'>
         <h1>Our products and services</h1>
         <p></p>
       
