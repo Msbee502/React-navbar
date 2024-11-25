@@ -1,11 +1,55 @@
 
+.headernavContainer {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: center;
+  
+}
+
+.navbar {
+  font-family: "Source Sans 3", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+
+.list {
+  display: flex;
+  gap: 25px;
+
+} 
+
+.navLink {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+a {
+  color: black; 
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+/* 
 .navbar{
-  max-width: 100%;
-  overflow: hidden;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .navContainer{
-  float: left;
+  max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
     background-color: #EEECDE;
     padding: 10px;   
     max-width: 100%;
@@ -22,13 +66,18 @@
 }
 .list {
     list-style-type: none;
-   
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEECDE;
+    padding: 10px;   
+    
 }
 
 .navLink a { 
     text-decoration: none;
     
-}
+} */
 
   /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
