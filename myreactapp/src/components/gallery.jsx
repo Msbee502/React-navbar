@@ -3,7 +3,7 @@ import Healthydrink from '../assets/Healthydrink.png';
 import Healthyfood from '../assets/Healthyfood.png';
 import Workout from '../assets/Workout.png';
 import Teapot from '../assets/Teapot.png';
-import '../Styles/Gallery.css';
+import '../styles/Gallery.css';
 
 
 
