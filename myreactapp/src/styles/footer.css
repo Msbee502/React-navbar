@@ -1,23 +1,23 @@
 
-body {
-    background-color: #EEECDE;
-    margin: 0;
-    padding: 0;
-    font-family: 'Allura', cursive;
-    color: #343a40;
-  }
 
-  .navFooter {
-    background-color: #343a40;
-    color: white;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
+  .footerLink {
+    color: #343a40;
     width: 100%;
     z-index: 100;
     font-family: 'Allura', cursive;
     text-decoration: none;
-  }
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.list {
+    list-style-type: none;   
+}
+
+.footerLink a { 
+    text-decoration: none;
+    
+}
+  
   
 
   /* .allura-regular {

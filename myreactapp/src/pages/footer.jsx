@@ -8,13 +8,13 @@ function Footer () {
     return (
         <div className="footer">
             <nav className="navfooter">
-                <ul>
-                    <li className='navFooter'><Link to="/" className='navFooter'>Home</Link></li>
-                    <li className="navfooter"><Link to="/About">About</Link></li>
-                    <li className="navfooter"><Link to="/">Find us</Link></li>
-                    <li className="navfooter"><Link to="/">Facebook link</Link></li> 
-                    <li className="navfooter"><Link to="/">LinkedIn link</Link></li>
-                    <li className="navfooter"><Link to="/">Instagram link</Link></li>
+                <ul className='list'>
+                    <li className='footerLink'><Link to="/" className='navFooter'>Home</Link></li>
+                    <li className="footerLink"><Link to="/About">About</Link></li>
+                    <li className="footerLink"><Link to="/">Find us</Link></li>
+                    <li className="footerLink"><Link to="/">Facebook link</Link></li> 
+                    <li className="footerLink"><Link to="/">LinkedIn link</Link></li>
+                    <li className="footerLink"><Link to="/">Instagram link</Link></li>
                 </ul>
             </nav>
         </div>
