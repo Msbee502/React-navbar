@@ -8,7 +8,7 @@ import '../styles/gallery.css';
 
 
 
-function Gallery (){
+function Gallery (props){
 
 return (
 
@@ -19,13 +19,13 @@ return (
         <div className='galleryContainer'>
             <img src={Glassbottle} alt="Glassbottle" className='galleryPic'/>
             <h3>Herb Tinktures</h3>
-            <p>From $8.00</p>
+            <p>From ${props.price}</p>
         </div>
 
         <div className='galleryContainer'>
             <img src={Healthydrink} alt="Glass with healthy drink" className='galleryPic'/>
             <h3>Smoothie Powders</h3>
-            <p>From $8.99</p>
+            <p>From ${props.price}</p>
          </div>
       
         <div className= 'galleryContainer'>

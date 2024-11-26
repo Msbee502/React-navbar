@@ -1,3 +1,8 @@
+body {
+  background-color: #EEECDE;
+  max-width: 100%;
+}
+
 .gallery {
     font-family: 'Lucida Sans', sans-serif;
     text-align: center;

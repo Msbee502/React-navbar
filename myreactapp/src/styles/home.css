@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.cabinPic {
+    width: 400px; 
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20%;
+    
+  }
+  
+.homeContainer{
+
+    max-width: 500px;
+    max-height: 500px;
+    border: 1px solid rgb(89, 88, 88);
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+   
+  }
+  
+
+  

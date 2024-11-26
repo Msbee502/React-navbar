@@ -1,4 +1,7 @@
-
+body{
+  background-color: #EEECDE;
+  max-width: 100%;
+}
 
   .footerLink {
     color: #343a40;

@@ -1,5 +1,19 @@
-function Home () {
-return <div>Home</div>
-}
+import Home from '../assets/Home.jpg';
+import '../styles/home.css';
 
-export default Home;
+function Homepage () {
+
+return (
+    <div className='container'>
+         <div className='homeContainer'>
+            <img src={Home} alt="Winter cabin in the forest" className="cabinPic" />
+            
+        </div>
+        
+    </div>
+
+);
+
+}
+    
+export default Homepage;

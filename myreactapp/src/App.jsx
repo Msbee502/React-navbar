@@ -4,6 +4,7 @@ import Home from './pages/home.jsx';
 import About from './pages/about.jsx';
 import Navbar from './pages/navbar.jsx';
 import Footer from './pages/footer.jsx';
+import Counter from './pages/counter.jsx';
 
 function App () {
   return (
@@ -13,7 +14,8 @@ function App () {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="*" element={<Gallery />} />
+        <Route path="*" element={<Gallery/>} />
+        <Route path="/counter" element={<Counter/>} />
       </Routes>
       <Footer></Footer>
       </BrowserRouter>
