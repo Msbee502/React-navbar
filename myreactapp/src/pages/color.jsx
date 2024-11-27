@@ -33,8 +33,7 @@ function ColorPicker() {
       >
         
         <p className="p"> Selected Color </p>
-        
-      </div>
+        </div>
     </div>
   );
 }
