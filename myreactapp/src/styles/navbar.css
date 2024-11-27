@@ -1,3 +1,7 @@
+ body {
+  min-height: 100vh;
+ }
+
 
 .headernavContainer {
   background-color: #EEECDE;
@@ -13,14 +17,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
-   
+  padding: 20px;   
 }
 
 .list {
   display: flex;
-  gap: 25px;
-
+  
 } 
 
 .navLink {

@@ -6,6 +6,7 @@ import '../styles/footer.css';
 
 function Footer () {
     return (
+        <footer>
         <div className="footer">
             <nav className="navfooter">
                 <ul className='list'>
@@ -18,6 +19,7 @@ function Footer () {
                 </ul>
             </nav>
         </div>
+        </footer>
     );
 }
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import navbar from '../pages/navbar.jsx';
+
 import '../styles/counter.css';
 
 function Counter() {

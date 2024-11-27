@@ -8,6 +8,7 @@ import '../styles/gallery.css';
 
 
 
+
 function Gallery (props){
 
 return (
@@ -36,7 +37,7 @@ return (
 
         <div className='galleryContainer'>
             <img src={Teapot} alt="Tea in pot" className='galleryPic'/>
-            <h3>Our very own teablends!</h3>
+            <h3>Our teablends!</h3>
             <p>From $5.99</p>
         </div>
 

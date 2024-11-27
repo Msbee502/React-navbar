@@ -1,18 +1,17 @@
 body{
-  background-color: #EEECDE;
-  max-width: 100%;
+  min-height: 100vh;
 }
 
   .footerLink {
     color: #343a40;
     width: 100%;
-    z-index: 100;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
 .list {
-    list-style-type: none;   
+    list-style-type: none;  
+    display: flex; 
 }
 
 .footerLink a { 

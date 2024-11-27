@@ -6,6 +6,7 @@ import '../styles/navbar.css';
 
 function Navbar () {
     return (
+        <header>
         <div className="navContainer">   
             <nav className="navbar">
                 <ul className="list">
@@ -13,9 +14,11 @@ function Navbar () {
                     <li className="navLink"><Link to="/About">About</Link></li>
                     <li className="navLink"><Link to="/Gallery">Gallery</Link></li>
                     <li className="navLink"><Link to="/Counter">Counter</Link></li>
+                    <li className="navLink"><Link to="/Color">Pick a color</Link></li>
                 </ul>
          </nav>
     </div>
+    </header>
       
 
     );
