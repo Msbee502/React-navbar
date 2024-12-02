@@ -13,10 +13,12 @@ function Gallery (props){
 
 return (
 
+    <div className="page">
+
     <div className='gallery'>
         <h1>Our products and services</h1>
         <p></p>
-      
+
         <div className='galleryContainer'>
             <img src={Glassbottle} alt="Glassbottle" className='galleryPic'/>
             <h3>Herb Tinktures</h3>
@@ -28,7 +30,7 @@ return (
             <h3>Smoothie Powders</h3>
             <p>From ${props.price}</p>
          </div>
-      
+
         <div className= 'galleryContainer'>
             <img src={Healthyfood} alt="An old book on a table" className='galleryPic' />
             <h3>Organic Produce</h3>
@@ -45,10 +47,10 @@ return (
             <img src={Workout} alt="An old book on a table" className='galleryPic' />
             <h3>Health-Coach</h3>
             <p>Contact us for more info</p>
-        </div>       
-
         </div>
 
+        </div>
+        </div>
 
     );
     

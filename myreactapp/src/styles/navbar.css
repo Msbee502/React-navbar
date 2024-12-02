@@ -1,27 +1,22 @@
- body {
-  min-height: 100vh;
- }
 
 
-.headernavContainer {
+
+.navContainer {
   background-color: #EEECDE;
+  gap: 20px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: center;
   align-items: center;
-  
 }
 
 .navbar {
   font-family: "Source Sans 3", sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;   
+  /* justify-content: center; */
+     
 }
 
 .list {
-  display: flex;
+  /* display: flex; */
   
 } 
 
@@ -30,7 +25,9 @@
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 16px;
-  margin: 25px;
+  margin: 20px;
+  padding: 20px;
+  
 }
 a {
   color: black; 

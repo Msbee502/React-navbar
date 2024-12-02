@@ -1,6 +1,13 @@
-body{
-  min-height: 100vh;
-}
+/* body{
+  background-color: #eeecde;
+  width: 100%;
+  height: 100vh; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+} */
 
   .footerLink {
     color: #343a40;

@@ -1,16 +1,27 @@
-body {
-    background-color: #EEECDE;
-    max-width: 100%;
-    min-height: 100vh;
+/* body {
+    background-color: #eeecde;
+    width: 100%;
+    height: 100vh; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
      
-}
+} */
+.page{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
 
 .counterContainer{
     justify-items: center;
-    height: 80vh;
+    min-height: 80vh;
+    
 }
 
-button {
+.increment, .decrement, .reset {
     border-radius: 25px;
     padding: 20px;
     width: 150px;
@@ -24,6 +35,7 @@ button {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.10);
+    
 }
 
 .counterTitle{
@@ -31,10 +43,10 @@ button {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
-button:hover {
+.increment:hover, .decrement:hover, .reset:hover {
     cursor: pointer;
 }
-button:active {
+.increment:active, .decrement:active, .reset:active {
     background-color: #f096e1;
     box-shadow: 0 5px #666;
     transform: translateY(4px);

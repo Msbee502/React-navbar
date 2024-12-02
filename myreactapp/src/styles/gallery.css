@@ -1,17 +1,27 @@
-body {
-  background-color: #EEECDE; /*Varför syns inte navbaren på denna sida?// */
-  max-width: 100%;
-  min-height: 100vh;
+/* body {
+  background-color: #eeecde;
+  width: 100%;
+  height: 100vh; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center; 
+  align-items: center;
   
+} */
+.page{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
+
 .gallery {
-    max-height: 80vh;
+    max-width: 1100px;
+    min-height: 80vh;
     font-family: 'Lucida Sans', sans-serif;
     text-align: center;
-    max-width: 1100px;
+    
     margin-bottom: 30px;
     
     
